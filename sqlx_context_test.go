@@ -1,3 +1,4 @@
+//go:build go1.8
 // +build go1.8
 
 // The following environment variables, if set, will be used:
@@ -23,8 +24,8 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/jmoiron/sqlx/reflectx"
 	_ "github.com/lib/pq"
+	"github.com/linbaozhong/sqlx/reflectx"
 	_ "github.com/mattn/go-sqlite3"
 )
 
